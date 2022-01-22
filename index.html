@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    
     <header id="header">
-      <img id="header-img" src=""/>
+      <img id="header-img" width="20%" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"/>
       <nav id="nav-bar">
        <ul> 
         <li class="nav-link"><a href="#features"> Features</a></li>
@@ -17,20 +16,29 @@
       </ul>
       </nav>
     </header>
+
     <form id="form">
       <input id="email" type="email" placeholder="Enter your email address"/>
-      <button id="button"><a href=" https://www.freecodecamp.com/email-submit)">GET STARTED</a></button>
+      <input id="button" type="submit"><a href=" https://www.freecodecamp.com/email-submit">GET STARTED</a></input>
     </form>
 
-    <div id="features">
-      
-    </div>
-    <video id="video"> </video>
-    <div id="howitwork">
-      
-    </div>
-    <div id="pricing">
-      
+    <div class="container">
+      <section id="features" data-selection="features">
+        First Section
+      </section>
+
+      <section id="howitwork">
+        <video id="video" width="320" height="240" controls>
+          <source src="movie.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="pricing">
+        last section
+        
+      </section>
     </div>
     
 

@@ -1,0 +1,62 @@
+#header {
+  position: fixed;
+  top: 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(250, 250, 250);
+  margin-bottom: 20px;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+#form {
+  /* width: 100px; */
+  display:  flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  z-index: -1;
+
+}
+
+#form input {
+  padding: 10px 20px;
+}
+
+#button {
+  background: green;
+  padding: 10px;
+  border: none;
+}
+
+#button a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+section {
+  height: 500px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+}
